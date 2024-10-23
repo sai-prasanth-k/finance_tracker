@@ -143,7 +143,9 @@ Returns the list of all transactions.
 ]
 
 ```
-<img src="images/result/postman/retrieve_all_transactions.png" alt="image">
+#### Postman API testing to retrieve all transaction.
+
+<img src="resultimages/retrieve_all_transactions.png" alt="image">
 
 ### API 4 - Retrieve Transaction by ID
 
@@ -174,7 +176,7 @@ Retrieves all transactions.
 
 #### Postman Api Testing Result to Retrieve Transaction by ID :
 
-<img src="images/result/postman/retrieve_transaction_by_id.png" alt="image">
+<img src="resultimages/retrieve_transaction_by_id.png" alt="image">
 
 
 ### API 5 - Update a Transaction
@@ -203,27 +205,23 @@ Retrieves all transactions by its ID.
 
 #### Postman Api Testing Result for Updating a Transaction:
 
-<img src="images/result/postman/update_transaction.png" alt="image">
+<img src="resultimages/update_transaction.png" alt="image">
 
-### API 6 - Update a Transaction
+### API 6 - Retrieve Transaction by Type
 
-#### Path: `/api/transactions/:id`
+#### Path: `/api/transactions/:type`
 
-#### Method: `PUT`
+#### Method: `GET`
 
 #### Description:
 
-Updates a transaction by its ID.
+Retrieve a transaction by its Type.
 
 #### Request Body:
 
 ```
 {
-  "type": "expense",
-  "category": "Groceries",
-  "amount": 150.0,
-  "date": "2023-12-01",
-  "description": "Weekly groceries"
+  "type": "expense"
 }
 ```
 
@@ -240,6 +238,10 @@ Updates a transaction by its ID.
   "__v": 0
 }
 ```
+
+#### Postman Api Testing Result for Retrieve Transaction by Type:
+
+<img src="iresultimages/retrieve_transaction_by_type.png" alt="image">
 
 ### API 7 - Delete a Transaction
 
@@ -258,6 +260,11 @@ Deletes a transaction by its ID.
   "message": "Transaction deleted"
 }
 ```
+
+#### Postman Api Testing Result to delete Transaction by ID:
+
+<img src="resultimages/retrieve_transaction_by_type.png" alt="image">
+
 
 ### API 8 - Delete all Transaction
 
@@ -312,6 +319,12 @@ category (optional): Category name to filter by.
   }
 }
 ```
+
+#### Postman Api Testing Result to summary of the Transaction:
+
+<img src="resultimages/summary_of_transaction.png" alt="image">
+
+
 
 ### Error Handling
 
