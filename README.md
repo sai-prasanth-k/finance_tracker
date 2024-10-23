@@ -5,7 +5,6 @@ This API allows users to manage personal financial records, including income and
 
 ## Features
 - Add, update, delete, and retrieve transactions.
-- Add, update, delete, and retrieve categories.
 - Generate transaction summaries filtered by date range or category.
 
 ## Technologies Used
@@ -296,9 +295,9 @@ Retrieves a summary of transactions, optionally filtered by date range or catego
 
 #### Query Parameter:
 
-startDate (optional): Start date in YYYY-MM-DD format.
-endDate (optional): End date in YYYY-MM-DD format.
-category (optional): Category name to filter by.
+- startDate (optional): Start date in YYYY-MM-DD format.
+- endDate (optional): End date in YYYY-MM-DD format.
+- category (optional): Category name to filter by.
 
 #### Response
 
