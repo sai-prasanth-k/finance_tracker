@@ -206,41 +206,6 @@ Retrieves all transactions by its ID.
 
 <img src="resultimages/update_transaction.png" alt="image">
 
-### API 6 - Retrieve Transaction by Type
-
-#### Path: `/api/transactions/:type`
-
-#### Method: `GET`
-
-#### Description:
-
-Retrieve a transaction by its Type.
-
-#### Request Body:
-
-```
-{
-  "type": "expense"
-}
-```
-
-#### Response:
-
-```
-{
-  "_id": "unique-transaction-id",
-  "type": "expense",
-  "category": "Groceries",
-  "amount": 150.0,
-  "date": "2023-12-01T00:00:00.000Z",
-  "description": "Weekly groceries",
-  "__v": 0
-}
-```
-
-#### Postman Api Testing Result for Retrieve Transaction by Type:
-
-<img src="iresultimages/retrieve_transaction_by_type.png" alt="image">
 
 ### API 7 - Delete a Transaction
 
