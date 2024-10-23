@@ -20,7 +20,7 @@ This API allows users to manage personal financial records, including income and
 
 ### Step 1: Clone the repository
 ```sh
-git clone https://github.com/sai-prasanth-k/finance-tracker.git
+git clone https://github.com/sai-prasanth-k/finance_tracker.git
 cd finance-tracker
 
 
